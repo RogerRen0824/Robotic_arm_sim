@@ -1,0 +1,30 @@
+{
+  "scene": {
+    "start": [
+      0.30658494441590584,
+      -0.1449911815185104
+    ],
+    "goal": [
+      0.4468367362397109,
+      0.19613171383796504
+    ],
+    "obstacles": [
+      [
+        0.32365541499383627,
+        0.034208404190723615
+      ],
+      [
+        0.533461155074527,
+        -0.024482920528239874
+      ]
+    ]
+  },
+  "index": 7,
+  "method": "demo",
+  "checkpoint": null,
+  "success": true,
+  "collision": false,
+  "distance_mm": 17.65125240723848,
+  "steps": 28,
+  "note": "Validation only; macro-action snapshots, not continuous motion"
+}

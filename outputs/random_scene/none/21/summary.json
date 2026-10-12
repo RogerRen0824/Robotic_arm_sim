@@ -1,0 +1,131 @@
+{
+  "methods": {
+    "straight": {
+      "0": {
+        "episodes": 3,
+        "successes": 3,
+        "collisions": 0,
+        "mean_distance_mm": 17.73205995346346
+      },
+      "1": {
+        "episodes": 3,
+        "successes": 2,
+        "collisions": 1,
+        "mean_distance_mm": 46.97297172163192
+      },
+      "2": {
+        "episodes": 3,
+        "successes": 2,
+        "collisions": 1,
+        "mean_distance_mm": 88.95800617503977
+      }
+    },
+    "planner": {
+      "0": {
+        "episodes": 3,
+        "successes": 3,
+        "collisions": 0,
+        "mean_distance_mm": 17.73205995346346
+      },
+      "1": {
+        "episodes": 3,
+        "successes": 2,
+        "collisions": 0,
+        "mean_distance_mm": 28.942266671725832
+      },
+      "2": {
+        "episodes": 3,
+        "successes": 2,
+        "collisions": 1,
+        "mean_distance_mm": 38.95850579769799
+      }
+    },
+    "demo": {
+      "0": {
+        "episodes": 3,
+        "successes": 3,
+        "collisions": 0,
+        "mean_distance_mm": 17.73205995346346
+      },
+      "1": {
+        "episodes": 3,
+        "successes": 1,
+        "collisions": 1,
+        "mean_distance_mm": 56.1016077855566
+      },
+      "2": {
+        "episodes": 3,
+        "successes": 3,
+        "collisions": 0,
+        "mean_distance_mm": 17.709258431475895
+      }
+    },
+    "ppo_none": {
+      "0": {
+        "episodes": 3,
+        "successes": 2,
+        "collisions": 0,
+        "mean_distance_mm": 75.17036336401542
+      },
+      "1": {
+        "episodes": 3,
+        "successes": 0,
+        "collisions": 0,
+        "mean_distance_mm": 251.62705104000622
+      },
+      "2": {
+        "episodes": 3,
+        "successes": 0,
+        "collisions": 1,
+        "mean_distance_mm": 229.09187660285897
+      }
+    }
+  },
+  "difficulty": [
+    {
+      "count": 0,
+      "direct_corridor_clear": true,
+      "planner_waypoints": 2
+    },
+    {
+      "count": 0,
+      "direct_corridor_clear": true,
+      "planner_waypoints": 2
+    },
+    {
+      "count": 0,
+      "direct_corridor_clear": true,
+      "planner_waypoints": 2
+    },
+    {
+      "count": 1,
+      "direct_corridor_clear": false,
+      "planner_waypoints": 3
+    },
+    {
+      "count": 1,
+      "direct_corridor_clear": false,
+      "planner_waypoints": 4
+    },
+    {
+      "count": 1,
+      "direct_corridor_clear": true,
+      "planner_waypoints": 2
+    },
+    {
+      "count": 2,
+      "direct_corridor_clear": false,
+      "planner_waypoints": 3
+    },
+    {
+      "count": 2,
+      "direct_corridor_clear": false,
+      "planner_waypoints": 3
+    },
+    {
+      "count": 2,
+      "direct_corridor_clear": true,
+      "planner_waypoints": 2
+    }
+  ]
+}

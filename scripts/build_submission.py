@@ -7,11 +7,14 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT.parent / 'human-demo-robot-pushing'
+if DEST == ROOT:
+    DEST = ROOT.parent / 'human-demo-robot-pushing-export'
 
 
 def main():
     DEST.mkdir(exist_ok=True)
     selected = [ROOT/'README.md', ROOT/'requirements.txt', ROOT/'APPLICATION_PROJECT.md']
+    selected += [ROOT/name for name in ['RANDOM_SCENES.md','.gitattributes'] if (ROOT/name).exists()]
     selected += list((ROOT/'scripts').glob('*.py'))
     selected += list((ROOT/'models').glob('*.xml'))
     selected += list((ROOT/'data').glob('*.json'))
@@ -19,8 +22,8 @@ def main():
     for folder in (ROOT/'outputs/dataset').iterdir():
         if folder.is_dir():
             selected += [folder/name for name in ['trajectory_prepared.csv','summary.json'] if (folder/name).exists()]
-    for relative in ['outputs/rl/residual/9', 'outputs/final_test', 'outputs/world_model', 'outputs/weight_ablation']:
-        selected += [p for p in (ROOT/relative).rglob('*') if p.is_file() and p.suffix in {'.json','.py','.xml','.zip','.npz','.pt','.png','.svg'}]
+    for relative in ['outputs/rl/residual/9', 'outputs/final_test', 'outputs/world_model', 'outputs/weight_ablation', 'outputs/random_scene']:
+        selected += [p for p in (ROOT/relative).rglob('*') if p.is_file() and p.suffix in {'.json','.py','.xml','.zip','.npz','.pt','.png','.svg','.jpg','.mp4'}]
     selected += [ROOT/'outputs/rl_preview_v3/validation_policy.mp4', ROOT/'outputs/rl_preview_v3/final_frame.jpg']
     # One training-video tracking example demonstrates data provenance.
     selected += [ROOT/'outputs/dataset/4adc8157380f6541c351f3929c693d36/tracking.mp4']
@@ -55,7 +58,7 @@ included for audit only. Notebook coordinates normalize its camera rotation.
 The state world model targets are simulated transitions; it learns no measured
 real-world masses or friction. See README.md for limitations and results.
 ''',encoding='utf-8')
-    archive = ROOT.parent/'human-demo-robot-pushing.zip'
+    archive = DEST.with_suffix('.zip')
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
         for path in DEST.rglob('*'):
             if path.is_file() and '.git' not in path.parts and '__pycache__' not in path.parts:

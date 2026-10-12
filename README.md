@@ -5,6 +5,11 @@ physical pushing, state-based PPO and trained state world models are implemented
 Five reserved layouts have been evaluated after freezing the controller and
 PPO checkpoint. No VLA or generative-video model is implemented.
 
+New development extension: [random 0–2 obstacle scenes](RANDOM_SCENES.md),
+including obstacle presence masks, all-obstacle contact checks and a separate
+curriculum PPO pilot. Its development results are distinct from the frozen
+single-obstacle experiment below.
+
 Research question: can object-relative motion extracted from personally recorded human pushing videos transfer to a simulated robot, and generalise to changed start/goal/obstacle positions?
 
 Minimum deliverable: recorded videos -> calibrated tabletop trajectories -> robot end-effector commands -> physical manipulation in simulation -> reproducible evaluation.
