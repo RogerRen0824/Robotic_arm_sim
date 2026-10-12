@@ -15,6 +15,11 @@
     "sha256": "ba20d0349c374d258b303b54b191c63ad26bab7ca46e88ee6ed41f2e9b256838"
   },
   {
+    "path": "CAPTURE_GUIDE_ZH.md",
+    "bytes": 2072,
+    "sha256": "0c0b7eb77418dc60abc9ac738c6a410df0738e7ccb15c75fe7901a02d84a9cbe"
+  },
+  {
     "path": "data/goal_annotations.json",
     "bytes": 457,
     "sha256": "8670d11a84a3770660acbbf2bd6c5422d1fcfb84fe357d7119fa2d1579c30366"
@@ -516,8 +521,8 @@
   },
   {
     "path": "scripts/build_submission.py",
-    "bytes": 3967,
-    "sha256": "d8be3b645ef51f0f8167842e87bb0047f031168d56b01020b27fa8aa3ff2f5c0"
+    "bytes": 3989,
+    "sha256": "da694c9b284f4a3297ba08aa0e64b1642ec994000fc23e4ce7f9f8f2639e1684"
   },
   {
     "path": "scripts/check_environment.py",

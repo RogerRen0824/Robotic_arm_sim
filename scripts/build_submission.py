@@ -14,7 +14,7 @@ if DEST == ROOT:
 def main():
     DEST.mkdir(exist_ok=True)
     selected = [ROOT/'README.md', ROOT/'requirements.txt', ROOT/'APPLICATION_PROJECT.md']
-    selected += [ROOT/name for name in ['RANDOM_SCENES.md','.gitattributes'] if (ROOT/name).exists()]
+    selected += [ROOT/name for name in ['RANDOM_SCENES.md','CAPTURE_GUIDE_ZH.md','.gitattributes'] if (ROOT/name).exists()]
     selected += list((ROOT/'scripts').glob('*.py'))
     selected += list((ROOT/'models').glob('*.xml'))
     selected += list((ROOT/'data').glob('*.json'))
