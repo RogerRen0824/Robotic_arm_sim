@@ -1,0 +1,11 @@
+{
+  "status": "confirmed_by_user",
+  "method": "Manual approximate centres of black markers in first frames, original 720x1280 pixels. Not derived from demonstration endpoints.",
+  "goals": {
+    "0f79fb8daa9d996a1124b9cf728e8f58": [287, 189],
+    "1ae23310792eb7f725c4aa8699125d8a": [390, 162],
+    "993f2a31605024db09e78341fa7611a9": [356, 147],
+    "a216266be2a3e1c12ea4fc173bdbfdaf": [415, 159],
+    "a8fb3e4e402e3a883dee15cb5b2ab93a": [357, 148]
+  }
+}

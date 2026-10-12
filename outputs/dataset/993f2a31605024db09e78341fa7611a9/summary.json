@@ -1,0 +1,39 @@
+{
+  "source": "F:\\python_environment\\humanoid_challenge\\data\\993f2a31605024db09e78341fa7611a9.mp4",
+  "frames": 278,
+  "valid_frames": 278,
+  "calibration_method": "colour_quadrilateral",
+  "reference_shift_range_px": [
+    0.0,
+    0.0
+  ],
+  "min_template_score": 0.926731526851654,
+  "notebook_dimensions_m": [
+    0.22,
+    0.13
+  ],
+  "corners_first_frame_px": [
+    [
+      240.0,
+      282.0
+    ],
+    [
+      495.0,
+      224.0
+    ],
+    [
+      531.0,
+      379.0
+    ],
+    [
+      272.0,
+      429.0
+    ]
+  ],
+  "limitations": [
+    "Colour-based approximate calibration; notebook surface height is unmeasured",
+    "Object top centre is a proxy for tabletop contact position",
+    "Template translation is only an apparent image displacement",
+    "No independent goal label; no robot simulation results"
+  ]
+}

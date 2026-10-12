@@ -1,0 +1,80 @@
+{
+  "source_hashes": {
+    "scripts\\push_env.py": "53b3db865c7d56ca5a7a49ecd55acd05e666b7434c88999b7cb31cdbbe866432",
+    "scripts\\evaluate_final.py": "66a825ee097fac538148d01971bb97379d459faf898b67965711172b3e774f6d",
+    "models\\planar_push.xml": "f7312cf31392fb8183d6ddcdc8b08fe10c20b3378f9f5acf9c6395ecea528187",
+    "data\\splits.json": "dc5a17e730a08bcf88af145addd215819d39aa26cf8fcf5ff964cd57d528c29b",
+    "data\\goal_annotations.json": "8670d11a84a3770660acbbf2bd6c5422d1fcfb84fe357d7119fa2d1579c30366",
+    "outputs\\dataset\\manifest.json": "838fbc6ac4c6c9e6a2e601d631088f6c80cf35305c6ea8eff98a926fb95fc810",
+    "outputs\\rl\\residual\\9\\policy.zip": "4c9ae88f270550d92980ad616293490d6043203b3aab8d0f5fd9f6a2e581e589"
+  },
+  "goal_weight": 0.85,
+  "residual_weight": 0.35,
+  "policy_seed": 9,
+  "friction": 0.3,
+  "max_macro_steps": 100,
+  "scenes": [
+    {
+      "id": "0f79fb8daa9d996a1124b9cf728e8f58",
+      "start_m": [
+        0.393975772112608,
+        -0.0948508471250534
+      ],
+      "goal_m": [
+        0.39335050821304324,
+        0.1427682176232338
+      ]
+    },
+    {
+      "id": "1ae23310792eb7f725c4aa8699125d8a",
+      "start_m": [
+        0.43167105704545977,
+        -0.09814458489418029
+      ],
+      "goal_m": [
+        0.44996717214584353,
+        0.18225935697555543
+      ]
+    },
+    {
+      "id": "993f2a31605024db09e78341fa7611a9",
+      "start_m": [
+        0.3718059250712395,
+        -0.10800715684890747
+      ],
+      "goal_m": [
+        0.46321808934211733,
+        0.18995984494686127
+      ]
+    },
+    {
+      "id": "a216266be2a3e1c12ea4fc173bdbfdaf",
+      "start_m": [
+        0.44192596167325976,
+        -0.09833946228027343
+      ],
+      "goal_m": [
+        0.48930069446563723,
+        0.1804150104522705
+      ]
+    },
+    {
+      "id": "a8fb3e4e402e3a883dee15cb5b2ab93a",
+      "start_m": [
+        0.43725821018218997,
+        -0.0996648758649826
+      ],
+      "goal_m": [
+        0.4487485253810883,
+        0.14631125926971436
+      ]
+    }
+  ],
+  "limitations": [
+    "Five layouts only; no statistical generalization claim",
+    "Manual approximate goal annotations; planar camera calibration",
+    "Notebook coordinates normalize camera/obstacle rotation",
+    "Privileged simulator state; arm link collisions disabled",
+    "Same contact controller for all policies; no test trajectory replay"
+  ]
+}

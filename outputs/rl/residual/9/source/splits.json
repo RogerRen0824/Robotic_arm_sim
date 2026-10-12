@@ -1,0 +1,29 @@
+{
+  "train": [
+    "291baa252127a7955b7fc2e46d5ef907",
+    "360236c28ed38971e4179d9511853210",
+    "4adc8157380f6541c351f3929c693d36",
+    "4d6c3f90d7f841a18b0f5a92247011db",
+    "801802e02ebbba51f10c6c1103d5941c",
+    "c0db6c18b9723799e4f59ebb7b45e6ae",
+    "c90e83c0656247e277a3745d33b0d014",
+    "ceb6c4f91211a65679ba203bfcc2ba53",
+    "d89006af4b3273993c21bdd834d66669",
+    "f23ef3a518b77bba87453d7b903df207",
+    "f363151c1f5f533c8f179992ba950293",
+    "f9c927ab7c53f5f0727e7873866b77f4"
+  ],
+  "validation": [
+    "15f8da2b54d6ea8e2b2f375a891cf756",
+    "32943884541ccaa90506d57ad90bc8df",
+    "daa64b606e191c1f3400abad5d5a4920"
+  ],
+  "test": [
+    "0f79fb8daa9d996a1124b9cf728e8f58",
+    "1ae23310792eb7f725c4aa8699125d8a",
+    "993f2a31605024db09e78341fa7611a9",
+    "a216266be2a3e1c12ea4fc173bdbfdaf",
+    "a8fb3e4e402e3a883dee15cb5b2ab93a"
+  ],
+  "note": "12 training and 3 validation demos fixed before policy learning. Five new-layout demos reserved for final testing; no policy tuning on their results."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "goal_weight": 0.0,
+    "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+    "steps": 43,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.011927032102265473,
+    "sim_time": 173.40000000009985
+  },
+  {
+    "goal_weight": 0.0,
+    "demo_id": "32943884541ccaa90506d57ad90bc8df",
+    "steps": 48,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.01956578182066238,
+    "sim_time": 194.20000000019917
+  },
+  {
+    "goal_weight": 0.0,
+    "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+    "steps": 43,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.0178808931640243,
+    "sim_time": 173.04000000009813
+  },
+  {
+    "goal_weight": 0.5,
+    "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+    "steps": 38,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.01784790102421281,
+    "sim_time": 153.96000000000703
+  },
+  {
+    "goal_weight": 0.5,
+    "demo_id": "32943884541ccaa90506d57ad90bc8df",
+    "steps": 42,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017738916236894182,
+    "sim_time": 168.20000000007502
+  },
+  {
+    "goal_weight": 0.5,
+    "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+    "steps": 43,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017804773090537906,
+    "sim_time": 172.3200000000947
+  },
+  {
+    "goal_weight": 0.85,
+    "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+    "steps": 38,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017856162650047424,
+    "sim_time": 152.56000000000034
+  },
+  {
+    "goal_weight": 0.85,
+    "demo_id": "32943884541ccaa90506d57ad90bc8df",
+    "steps": 42,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017678485209515985,
+    "sim_time": 167.56000000007197
+  },
+  {
+    "goal_weight": 0.85,
+    "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+    "steps": 41,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017747013642922974,
+    "sim_time": 163.96000000005478
+  },
+  {
+    "goal_weight": 1.0,
+    "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+    "steps": 38,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017698643639369616,
+    "sim_time": 152.52000000000015
+  },
+  {
+    "goal_weight": 1.0,
+    "demo_id": "32943884541ccaa90506d57ad90bc8df",
+    "steps": 42,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.017882269814215732,
+    "sim_time": 168.16000000007483
+  },
+  {
+    "goal_weight": 1.0,
+    "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+    "steps": 40,
+    "success": true,
+    "collision": false,
+    "distance_m": 0.015028258037960904,
+    "sim_time": 157.40000000002345
+  }
+]

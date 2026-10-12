@@ -1,0 +1,535 @@
+{
+  "seed": 9,
+  "requested_steps": 2048,
+  "actual_steps": 2048,
+  "residual": true,
+  "before": {
+    "demo_guide": [
+      {
+        "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+        "success": true,
+        "collision": false,
+        "distance_m": 0.017856162650047424,
+        "steps": 38,
+        "reward": 39.36105021993696,
+        "sim_time": 152.56000000000034
+      },
+      {
+        "demo_id": "32943884541ccaa90506d57ad90bc8df",
+        "success": true,
+        "collision": false,
+        "distance_m": 0.017678485209515985,
+        "steps": 42,
+        "reward": 40.07082235372786,
+        "sim_time": 167.56000000007197
+      },
+      {
+        "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+        "success": true,
+        "collision": false,
+        "distance_m": 0.017747013642922974,
+        "steps": 41,
+        "reward": 38.049759084893125,
+        "sim_time": 163.96000000005478
+      }
+    ],
+    "straight": [
+      {
+        "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+        "success": false,
+        "collision": true,
+        "distance_m": 0.1944297019268862,
+        "steps": 8,
+        "reward": -6.211893209571304,
+        "sim_time": 33.399999999994854
+      },
+      {
+        "demo_id": "32943884541ccaa90506d57ad90bc8df",
+        "success": false,
+        "collision": true,
+        "distance_m": 0.22578022607540155,
+        "steps": 5,
+        "reward": -6.413252641239346,
+        "sim_time": 21.399999999999018
+      },
+      {
+        "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+        "success": false,
+        "collision": true,
+        "distance_m": 0.19880772895968504,
+        "steps": 7,
+        "reward": -7.502671075102132,
+        "sim_time": 28.799999999994917
+      }
+    ]
+  },
+  "after": [
+    {
+      "demo_id": "15f8da2b54d6ea8e2b2f375a891cf756",
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017847189322421245,
+      "steps": 39,
+      "reward": 39.31136317041225,
+      "sim_time": 156.3200000000183
+    },
+    {
+      "demo_id": "32943884541ccaa90506d57ad90bc8df",
+      "success": true,
+      "collision": false,
+      "distance_m": 0.006748436960787164,
+      "steps": 42,
+      "reward": 40.50797791906769,
+      "sim_time": 168.00000000007407
+    },
+    {
+      "demo_id": "daa64b606e191c1f3400abad5d5a4920",
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01787162716853826,
+      "steps": 42,
+      "reward": 37.99472587836441,
+      "sim_time": 166.44000000006662
+    }
+  ],
+  "episodes": [
+    {
+      "step": 47,
+      "r": -5.147991,
+      "l": 47,
+      "t": 15.463156,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.054939318228346724
+    },
+    {
+      "step": 70,
+      "r": -7.482203,
+      "l": 23,
+      "t": 17.10618,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.14996937814230463
+    },
+    {
+      "step": 114,
+      "r": 36.869501,
+      "l": 44,
+      "t": 20.156607,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017770793073842484
+    },
+    {
+      "step": 157,
+      "r": -2.970145,
+      "l": 43,
+      "t": 23.239483,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.02446560572251066
+    },
+    {
+      "step": 201,
+      "r": -3.833742,
+      "l": 44,
+      "t": 26.366849,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.0864500722685159
+    },
+    {
+      "step": 246,
+      "r": -8.583505,
+      "l": 45,
+      "t": 29.605641,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.15732967299461534
+    },
+    {
+      "step": 278,
+      "r": 38.385378,
+      "l": 32,
+      "t": 31.952492,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01782151949490587
+    },
+    {
+      "step": 324,
+      "r": 37.86602,
+      "l": 46,
+      "t": 35.32812,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017835339836947205
+    },
+    {
+      "step": 373,
+      "r": 36.335646,
+      "l": 49,
+      "t": 38.86391,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.0178548043439568
+    },
+    {
+      "step": 426,
+      "r": 37.236763,
+      "l": 53,
+      "t": 42.567861,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017724102090172982
+    },
+    {
+      "step": 482,
+      "r": 36.624743,
+      "l": 56,
+      "t": 46.464348,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017801054935791955
+    },
+    {
+      "step": 529,
+      "r": -2.934113,
+      "l": 47,
+      "t": 49.981979,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.023205033525557358
+    },
+    {
+      "step": 570,
+      "r": 37.471934,
+      "l": 41,
+      "t": 52.877932,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01777345074957727
+    },
+    {
+      "step": 597,
+      "r": -6.829275,
+      "l": 27,
+      "t": 54.888922,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.15738428577169736
+    },
+    {
+      "step": 649,
+      "r": 37.150209,
+      "l": 52,
+      "t": 58.565835,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01786118559414146
+    },
+    {
+      "step": 684,
+      "r": 37.896045,
+      "l": 35,
+      "t": 60.986038,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01775371461629174
+    },
+    {
+      "step": 736,
+      "r": 37.566583,
+      "l": 52,
+      "t": 64.665001,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01762761198447391
+    },
+    {
+      "step": 778,
+      "r": 36.359509,
+      "l": 42,
+      "t": 67.847053,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017727305422425163
+    },
+    {
+      "step": 808,
+      "r": 37.701062,
+      "l": 30,
+      "t": 70.075119,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01792585913284535
+    },
+    {
+      "step": 860,
+      "r": 37.592009,
+      "l": 52,
+      "t": 73.976595,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017734742817393866
+    },
+    {
+      "step": 915,
+      "r": 36.926104,
+      "l": 55,
+      "t": 78.258227,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01771286002808456
+    },
+    {
+      "step": 954,
+      "r": 37.123472,
+      "l": 39,
+      "t": 81.209221,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.012389299324116209
+    },
+    {
+      "step": 988,
+      "r": 38.08939,
+      "l": 34,
+      "t": 83.675935,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017719677639935892
+    },
+    {
+      "step": 1025,
+      "r": 38.468661,
+      "l": 37,
+      "t": 86.446299,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01771824255644981
+    },
+    {
+      "step": 1068,
+      "r": 39.046538,
+      "l": 43,
+      "t": 89.568079,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017908230432137566
+    },
+    {
+      "step": 1116,
+      "r": 36.83658,
+      "l": 48,
+      "t": 92.998232,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017815739676652356
+    },
+    {
+      "step": 1167,
+      "r": -1.908474,
+      "l": 51,
+      "t": 97.077468,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.017930455929440096
+    },
+    {
+      "step": 1209,
+      "r": 37.826277,
+      "l": 42,
+      "t": 100.11673,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.015600888585423581
+    },
+    {
+      "step": 1231,
+      "r": -9.266432,
+      "l": 22,
+      "t": 101.787603,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.2471246912751658
+    },
+    {
+      "step": 1274,
+      "r": 36.604688,
+      "l": 43,
+      "t": 104.993009,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017666564705376555
+    },
+    {
+      "step": 1322,
+      "r": 37.994827,
+      "l": 48,
+      "t": 108.503724,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017888306277715302
+    },
+    {
+      "step": 1373,
+      "r": 36.29124,
+      "l": 51,
+      "t": 112.170922,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01774421292810491
+    },
+    {
+      "step": 1431,
+      "r": 36.152582,
+      "l": 58,
+      "t": 116.323749,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017667573776485757
+    },
+    {
+      "step": 1461,
+      "r": 37.612417,
+      "l": 30,
+      "t": 118.515673,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017897080129566326
+    },
+    {
+      "step": 1478,
+      "r": -7.594184,
+      "l": 17,
+      "t": 119.803488,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.20269064674806306
+    },
+    {
+      "step": 1529,
+      "r": 38.033907,
+      "l": 51,
+      "t": 123.511902,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017728398843419247
+    },
+    {
+      "step": 1589,
+      "r": 35.382726,
+      "l": 60,
+      "t": 127.882573,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017747846312069587
+    },
+    {
+      "step": 1638,
+      "r": 36.733706,
+      "l": 49,
+      "t": 131.572007,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01768272637263863
+    },
+    {
+      "step": 1694,
+      "r": 35.518307,
+      "l": 56,
+      "t": 135.817886,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01766549200122132
+    },
+    {
+      "step": 1712,
+      "r": -7.098381,
+      "l": 18,
+      "t": 137.245672,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.15115969966538323
+    },
+    {
+      "step": 1754,
+      "r": 38.486942,
+      "l": 42,
+      "t": 140.479161,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.01784367552980283
+    },
+    {
+      "step": 1801,
+      "r": 37.247747,
+      "l": 47,
+      "t": 144.149616,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017900134804408104
+    },
+    {
+      "step": 1830,
+      "r": -6.77575,
+      "l": 29,
+      "t": 146.42615,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.14932310648732705
+    },
+    {
+      "step": 1861,
+      "r": -11.716244,
+      "l": 31,
+      "t": 148.864486,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.23788437372121782
+    },
+    {
+      "step": 1912,
+      "r": -3.745503,
+      "l": 51,
+      "t": 153.00109,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.019710045944867596
+    },
+    {
+      "step": 1949,
+      "r": -6.11409,
+      "l": 37,
+      "t": 155.863339,
+      "success": false,
+      "collision": true,
+      "distance_m": 0.1376503942945507
+    },
+    {
+      "step": 2001,
+      "r": 38.891874,
+      "l": 52,
+      "t": 159.831412,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.007117111618689887
+    },
+    {
+      "step": 2037,
+      "r": 37.318678,
+      "l": 36,
+      "t": 162.428955,
+      "success": true,
+      "collision": false,
+      "distance_m": 0.017723933386431537
+    }
+  ],
+  "limitations": [
+    "Three validation demonstration-conditioned layouts, not final tests",
+    "Privileged simulator state and fixed low-level controller",
+    "Single-seed short training pilot; no claim of convergence",
+    "Goal for train/validation is prescribed at reset from demonstration endpoint"
+  ]
+}

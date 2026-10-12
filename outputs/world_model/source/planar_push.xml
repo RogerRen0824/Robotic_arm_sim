@@ -1,0 +1,11 @@
+<mujoco model="planar_push"><compiler angle="radian"/><option timestep="0.002" integrator="implicitfast"/><visual><global offwidth="800" offheight="600"/></visual>
+<default><joint damping="3"/><geom friction="0.5 0.005 0.0001"/><position kp="400" kv="35"/></default>
+<worldbody><light pos="0.3 0 2"/><geom name="table" type="plane" size="1 1 .1" rgba=".65 .72 .70 1"/>
+<geom name="obstacle" type="box" pos=".45 .035 .025" size=".11 .065 .025" rgba=".4 .22 .18 1"/>
+<site name="goal" type="cylinder" pos="0.45695230007171633 0.14772870242595673 .002" size=".025 .001" rgba="0 .8 0 .5"/>
+<body name="arm" pos="0 -.28 .12"><joint name="j1" axis="0 0 1" range="-3.14 3.14"/><geom type="capsule" contype="0" conaffinity="0" fromto="0 0 0 .27 0 0" size=".014" mass="1" rgba=".2 .4 .8 1"/>
+<body pos=".27 0 0"><joint name="j2" axis="0 0 1" range="-3.14 3.14"/><geom type="capsule" contype="0" conaffinity="0" fromto="0 0 0 .25 0 0" size=".013" mass=".8" rgba=".2 .5 .9 1"/>
+<body pos=".25 0 0"><joint name="j3" axis="0 0 1" range="-3.14 3.14"/><geom type="capsule" contype="0" conaffinity="0" fromto="0 0 0 .30 0 0" size=".012" mass=".4" rgba=".3 .6 .9 1"/>
+<body pos=".30 0 0"><joint name="lift" type="slide" axis="0 0 1" range="-.09 .08"/><geom name="pusher" type="cylinder" size=".012 .022" mass=".1" rgba=".9 .6 .1 1"/><site name="tip" size=".005"/></body></body></body></body>
+<body name="object" pos="0.44930199176073077 -0.14807743728160858 .025"><freejoint/><geom name="object_geom" type="cylinder" size=".023 .025" mass=".08" rgba=".95 .95 .9 1" friction=".3 .005 .0001"/></body>
+</worldbody><actuator><position joint="j1"/><position joint="j2"/><position joint="j3"/><position joint="lift" kp="800" kv="45"/></actuator></mujoco>

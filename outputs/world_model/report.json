@@ -1,0 +1,97 @@
+{
+  "train_transitions": 948,
+  "validation_transitions": 261,
+  "train_episodes": 24,
+  "validation_episodes": 6,
+  "epochs": 300,
+  "metrics": {
+    "persistence": {
+      "1": {
+        "windows": 261,
+        "position_rmse_mm": 15.147793769836426,
+        "position_median_mm": 12.986557960510254,
+        "position_p95_mm": 31.267412185668945
+      },
+      "3": {
+        "windows": 249,
+        "position_rmse_mm": 42.8927001953125,
+        "position_median_mm": 38.39659881591797,
+        "position_p95_mm": 64.64923858642578
+      },
+      "5": {
+        "windows": 237,
+        "position_rmse_mm": 70.0624771118164,
+        "position_median_mm": 63.344783782958984,
+        "position_p95_mm": 103.5688705444336
+      }
+    },
+    "linear_ridge": {
+      "1": {
+        "windows": 261,
+        "position_rmse_mm": 6.840244024880474,
+        "position_median_mm": 3.882139068894386,
+        "position_p95_mm": 14.771141687070854
+      },
+      "3": {
+        "windows": 249,
+        "position_rmse_mm": 13.143921186497671,
+        "position_median_mm": 8.548665390079227,
+        "position_p95_mm": 24.17085062540627
+      },
+      "5": {
+        "windows": 237,
+        "position_rmse_mm": 18.424436720079992,
+        "position_median_mm": 12.417558047186887,
+        "position_p95_mm": 33.33145230619382
+      }
+    },
+    "action_blind": {
+      "1": {
+        "windows": 261,
+        "position_rmse_mm": 9.160216331481934,
+        "position_median_mm": 5.658143520355225,
+        "position_p95_mm": 16.52224349975586
+      },
+      "3": {
+        "windows": 249,
+        "position_rmse_mm": 30.8361873626709,
+        "position_median_mm": 20.852731704711914,
+        "position_p95_mm": 62.87285614013672
+      },
+      "5": {
+        "windows": 237,
+        "position_rmse_mm": 48.69269561767578,
+        "position_median_mm": 33.177738189697266,
+        "position_p95_mm": 96.06694030761719
+      }
+    },
+    "action_conditioned": {
+      "1": {
+        "windows": 261,
+        "position_rmse_mm": 8.979350090026855,
+        "position_median_mm": 4.984197616577148,
+        "position_p95_mm": 17.925065994262695
+      },
+      "3": {
+        "windows": 249,
+        "position_rmse_mm": 25.266780853271484,
+        "position_median_mm": 16.445552825927734,
+        "position_p95_mm": 52.19065475463867
+      },
+      "5": {
+        "windows": 237,
+        "position_rmse_mm": 39.61891174316406,
+        "position_median_mm": 23.1756534576416,
+        "position_p95_mm": 80.0639419555664
+      }
+    }
+  },
+  "source_hash": "3180ef16c36ba8184516743cee12b822fa7fb654350580fee2fa8b4a143b6e9c",
+  "limitations": [
+    "Learned simulated macro-action state dynamics, not real physics or generative video",
+    "Applicant videos define guide and layout distribution; model targets are simulated",
+    "Validation scene IDs and complete episodes excluded from model fitting",
+    "Multi-step evaluation uses recorded future actions and fixed context, never future dynamic states",
+    "Predicted dynamics are not used to improve the deployed policy; no final test evaluation"
+  ]
+}

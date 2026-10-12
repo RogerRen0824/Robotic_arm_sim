@@ -1,0 +1,14 @@
+{
+  "steps": 2048,
+  "seed": 9,
+  "scratch": false,
+  "source_hashes": {
+    "push_env.py": "53b3db865c7d56ca5a7a49ecd55acd05e666b7434c88999b7cb31cdbbe866432",
+    "train_rl.py": "ce58befb0e99fc809bf9483a73acaa339200d81cff760d41bfe82069dcfff830",
+    "planar_push.xml": "f7312cf31392fb8183d6ddcdc8b08fe10c20b3378f9f5acf9c6395ecea528187",
+    "splits.json": "dc5a17e730a08bcf88af145addd215819d39aa26cf8fcf5ff964cd57d528c29b"
+  },
+  "push_iterations": 50,
+  "goal_weight": 0.85,
+  "residual_weight": 0.35
+}
